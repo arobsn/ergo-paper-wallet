@@ -1,0 +1,66 @@
+.wiz-container {
+  @apply screen:md:pt-8 print:m-0 flex flex-col items-center;
+}
+
+.wiz-container .wiz-content {
+  @apply screen:py-5 w-full lg:w-10/12 md:w-11/12;
+}
+
+.wiz-header {
+  @apply flex items-center pb-5;
+}
+
+.wiz-header .separator {
+  @apply flex-auto border-t-2 transition duration-500 ease-in-out;
+}
+
+.wiz-header .separator.prev {
+  @apply border-blue-gray-500;
+}
+
+.wiz-header .separator.current {
+  @apply border-gray-300;
+}
+
+.wiz-header .separator.next {
+  @apply border-gray-300;
+}
+
+.wiz-header .item {
+  @apply flex items-center text-gray-500 relative;
+}
+
+/* prev, next, current */
+
+.wiz-header .item.prev {
+  @apply text-blue-gray-500;
+}
+
+.wiz-header .item.prev .icon {
+  @apply border-blue-gray-500;
+}
+
+.wiz-header .item.current {
+  @apply text-blue-gray-500;
+}
+
+.wiz-header .item.current .icon {
+  @apply border-blue-gray-500 bg-blue-gray-500 text-white;
+}
+
+.wiz-header .item.next {
+  @apply text-gray-500;
+}
+.wiz-header .item.next .icon {
+  @apply border-gray-300;
+}
+
+.wiz-header .item .icon {
+  @apply rounded-full transition duration-500 ease-in-out h-12 w-12 border-2 p-2.5 tracking-normal leading-none;
+}
+
+.wiz-header .item .label {
+  @apply absolute top-0 -ml-10 text-center mt-16 w-32 text-xs font-medium uppercase;
+}
+
+/* prev, next, current */

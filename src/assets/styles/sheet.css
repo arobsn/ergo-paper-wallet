@@ -1,0 +1,53 @@
+.sheet-wrap {
+  @apply overflow-auto flex justify-center
+    print:overflow-hidden print:w-full;
+}
+
+.sheet {
+  @apply flex flex-wrap overflow-hidden min-w-185 max-w-min
+      max-w-200 leading-normal text-sm
+      screen:mb-5 screen:mx-5 screen:shadow-lg;
+}
+
+.sheet .quarter {
+  @apply w-1/2 overflow-hidden w-1/2 min-h-125 max-h-min
+      border-dashed border-gray-400;
+}
+
+.sheet .col {
+  @apply flex flex-col h-full;
+}
+
+.sheet .col .row {
+  @apply px-5 py-2;
+}
+
+.sheet .quarter.even-top {
+  @apply border-b-1 border-r-1;
+}
+
+.sheet .quarter.odd-top {
+  @apply border-b-1;
+}
+
+.sheet .quarter.even-bottom {
+  @apply border-r-1;
+}
+
+.sheet .key {
+  @apply font-mono leading-tight tracking-normal 
+    text-left break-all text-sm print:text-xs;
+}
+
+.sheet .bordered {
+  @apply border-solid border-1 border-gray-300;
+}
+
+.sheet .tip-text {
+  @apply border-gray-300 border-solid 
+    border-t-1 pt-1  text-gray-600;
+}
+
+.sheet .title {
+  @apply text-center text-xl tracking-wide mb-3;
+}

@@ -1,0 +1,56 @@
+body {
+  @apply antialiased px-3 tracking-wide leading-normal;
+}
+
+.default-control {
+  @apply text-blue-gray-600
+    rounded border border-blue-gray-500 ease-linear transition-all duration-150;
+}
+
+.select-control {
+  @apply px-2 py-0.5 text-sm ml-1 mb-1 default-control font-light;
+}
+
+.select-control select {
+  @apply font-semibold cursor-pointer;
+}
+
+.btn {
+  @apply default-control px-6 py-3 text-sm ml-1 mb-1 font-semibold uppercase
+    hover:text-white hover:bg-blue-gray-600 active:bg-blue-gray-800
+    focus:outline-none focus:ring-2 focus:ring-blue-gray-300 focus:ring-offset-0;
+}
+
+.btn.primary {
+  @apply text-white bg-blue-gray-500 
+    hover:bg-blue-gray-600 active:bg-blue-gray-800;
+}
+
+.btn:disabled {
+  @apply opacity-25 cursor-not-allowed 
+    text-black bg-gray-400 !important;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  @apply transition ease-in duration-100;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  @apply opacity-0;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0.5rem;
+  }
+
+  html,
+  body {
+    color-adjust: exact;
+    padding: 0 !important;
+    margin: 0.5rem;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "ergo-paper-wallet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@coinbarn/ergo-ts": "^0.3.0",
+    "@mdi/js": "^5.9.55",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "bip32": "^2.0.6",
+    "bip39": "^3.0.4",
+    "bs58check": "^2.1.2",
+    "core-js": "^3.16.1",
+    "eslint-plugin-prettier": "^3.4.1",
+    "feather-icons": "^4.28.0",
+    "mdi-vue": "^3.0.7",
+    "qrcode": "^1.4.4",
+    "vue": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/qrcode": "^1.4.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-plugin-typescript": "~4.5.13",
+    "@vue/cli-plugin-unit-jest": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "@vue/compiler-sfc": "^3.2.2",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "@vue/test-utils": "^2.0.0-0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "prettier": "^2.3.2",
+    "typescript": "~4.3.5",
+    "vue-cli-plugin-windicss": "^1.0.3",
+    "vue-jest": "^5.0.0-0"
+  }
+}
