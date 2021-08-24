@@ -12,7 +12,7 @@
       <h1 class="text-xl font-semibold">Go offline.</h1>
       <p class="font-light">
         For improved security, the whole process can be done offline. Just download the
-        <a class="hover:underline" href="https://github.com/anon-br/ergo-paper-wallet/releases"
+        <a class="hover:underline" href="standalone.html" download
           ><span class="font-mono">standalone.html</span></a
         >
         file on GitHub, go offline and open it using your browser as a regular .html file!
