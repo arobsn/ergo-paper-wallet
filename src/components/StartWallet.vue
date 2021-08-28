@@ -40,8 +40,8 @@
     <div class="">
       <h1 class="text-xl font-semibold">Donate.</h1>
       <p class="font-light">
-        If you like this tool and want to to encourage its developement, donations are warmly
-        welcomed! Please send any amount to this address:
+        If you like this tool and want to to encourage its development, donations are warmly
+        welcomed! Please, send any amount to this address:
         <tool-tip dashed>
           <template v-slot:label>
             <canvas class="inline" id="donate-canvas"></canvas>
