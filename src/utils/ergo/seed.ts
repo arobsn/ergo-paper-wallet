@@ -9,7 +9,6 @@ export default class Seed {
 
   constructor(buffer: Buffer) {
     this._change = bip32.fromSeed(buffer).derivePath(consts.derivationPath);
-
     this._index = this._change.derive(0);
   }
 
@@ -27,7 +26,6 @@ export default class Seed {
 
   public derive(index: number): Seed {
     this._index = this._change.derive(index);
-
     return this;
   }
 }

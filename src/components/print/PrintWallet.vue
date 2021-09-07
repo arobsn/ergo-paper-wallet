@@ -116,7 +116,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { shufflePhrase } from "@/utils/strings";
+import { shufflePhrase } from "@/utils/stringHelper";
 import PrintableErgoHeader from "./PrintableErgoHeader.vue";
 import QRCode from "qrcode";
 import Mnemonic from "@/utils/ergo/mnemonic";

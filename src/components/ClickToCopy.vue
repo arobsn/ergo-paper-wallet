@@ -11,7 +11,6 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import ClipboardHelper from "@/utils/clipboardHelper";
 
 export default defineComponent({
   name: "ClickToCopy",
@@ -39,12 +38,12 @@ export default defineComponent({
   },
   methods: {
     onClick() {
-      ClipboardHelper.setString(this.value);
+      navigator.clipboard.writeText(this.value);
       this.setCopied();
 
       setTimeout(() => {
         this.setCopied(false);
-      }, 2000);
+      }, 1000);
     },
     setCopied(value = true) {
       this.copied = value;
