@@ -8,15 +8,15 @@
         class="
           text-center
           relative
-          top-6
-          h-22
-          w-19
+          top-4.5
+          h-18.5
+          w-18
           bg-white
           border-solid border-1 border-dark-900
-          p-1
+          py-0.7
         "
       >
-        <canvas class="h-15 w-15 inline-block pt-0.5" :id="canvasId"></canvas>
+        <canvas class="h-12 w-12 inline-block pt-0.5" :id="canvasId"></canvas>
         <span class="text-xs">{{ plate.TextPart }}</span>
       </div>
     </div>
@@ -44,7 +44,7 @@ export default defineComponent({
       renderIcon(
         {
           seed: this.plate.ImagePart,
-          size: 8,
+          size: 7,
           scale: 4,
           color: "#aaa",
           bgcolor: "#fff",
