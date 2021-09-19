@@ -1,6 +1,58 @@
 <template>
-  <header class="h-12 bg-dark-900 items-center flex w-full justify-start">
-    <ergo-logo class="h-9 mx-2 fill-white" />
-    <p class="text-white">Paper Wallet</p>
+  <header class="h-14 bg-dark-900 items-center flex w-full justify-start select-none px-2">
+    <ergo-logo class="h-9 fill-white inline" />
+    <span class="pl-2 pb-0.5 text-xl tracking-wide text-white font-light">Paper Wallet</span>
+
+    <div class="flex-auto flex flex-row-reverse">
+      <div
+        class="
+          text-center
+          relative
+          top-6
+          h-22
+          w-19
+          bg-white
+          border-solid border-1 border-dark-900
+          p-1
+        "
+      >
+        <canvas class="h-15 w-15 inline-block pt-0.5" :id="canvasId"></canvas>
+        <span class="text-xs">{{ plate.TextPart }}</span>
+      </div>
+    </div>
   </header>
 </template>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+import { WalletChecksum } from "@emurgo/cip4-js";
+import { renderIcon } from "@download/blockies";
+
+export default defineComponent({
+  name: "PrintableErgoHeader",
+  props: {
+    id: { type: String, required: true },
+    plate: { type: Object as () => WalletChecksum, required: true },
+  },
+  computed: {
+    canvasId() {
+      return `checksum-${this.id}`;
+    },
+  },
+  watch: {
+    plate() {
+      renderIcon(
+        {
+          seed: this.plate.ImagePart,
+          size: 8,
+          scale: 4,
+          color: "#aaa",
+          bgcolor: "#fff",
+          spotcolor: "#000",
+        },
+        document.getElementById(this.canvasId)
+      );
+    },
+  },
+});
+</script>

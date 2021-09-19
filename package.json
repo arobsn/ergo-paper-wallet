@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@coinbarn/ergo-ts": "^0.3.0",
+    "@download/blockies": "^1.0.3",
+    "@emurgo/cip4-js": "^1.0.5",
     "@mdi/js": "^5.9.55",
     "@vue/eslint-config-prettier": "^6.0.0",
     "bip32": "^2.0.6",

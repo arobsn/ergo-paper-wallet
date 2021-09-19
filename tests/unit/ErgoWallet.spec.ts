@@ -4,12 +4,12 @@ import Seed from "@/utils/ergo/seed";
 
 describe("mnemonics generation", () => {
   it("generates valid mnemonic", () => {
-    var mnemonic = new Mnemonic();
+    const mnemonic = new Mnemonic();
     expect(bip39.validateMnemonic(mnemonic.toString())).toBe(true);
   });
 
   it("fails when trying to ganerate a wallet with invalid mnemonic", () => {
-    var invalidMnemonic =
+    const invalidMnemonic =
       "author tell knee alert group smooth pepper better mistake ranch ecology reveal rent resource daring";
     expect(() => {
       new Mnemonic(invalidMnemonic);
@@ -20,7 +20,7 @@ describe("mnemonics generation", () => {
 describe("address generation", () => {
   let seed!: Seed;
   beforeAll(async () => {
-    let wallet = new Mnemonic(
+    const wallet = new Mnemonic(
       "this usage buyer light oak sponsor marriage oil clay text found pupil swear glad meat"
     );
     seed = await wallet.toSeed().then((seed) => {
@@ -29,13 +29,17 @@ describe("address generation", () => {
   });
 
   it("generates extended puplic key", () => {
-    let xpkFromYoroi =
+    const xpk =
       "0488b21e04cc30ffed00000000478725d7ce9c7c4bb58522d076cb6bfc975dd6d9b9c743934eab4060d23f87aa03c908a8378b80660be33ff2a5035d324e700bfdd43e251ab88cc5e3be176d9ea9";
-    expect(seed.extendedPublicKey).toEqual(xpkFromYoroi);
+    expect(seed.extendedPublicKey).toEqual(xpk);
+  });
+
+  it("calculates checksum", () => {
+    expect(seed.checksum.TextPart).toEqual("CKAK-9917");
   });
 
   it("derive addresses", () => {
-    let validAddresses = [
+    const validAddresses = [
       "9em69dLVG6UoKzjDhKoYUHAWs1NM4vm928LQU6wrMsX1RQYNRpx",
       "9gLs82Lp34QWjBApeF8UnXkQoXaaznBRHpUJwnxfjtXjT6rKV67",
       "9eaGjRXeVCjvJbazhLASv5RQnj8VU11kefQJw7CPb4pLnTfPiGk",

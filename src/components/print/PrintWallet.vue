@@ -3,7 +3,7 @@
     <div class="sheet">
       <div class="quarter even-top">
         <div class="col">
-          <printable-ergo-header />
+          <printable-ergo-header id="odd" :plate="plate" />
           <div class="row">
             <h1 class="title">Public Key</h1>
           </div>
@@ -27,7 +27,7 @@
       </div>
       <div class="quarter odd-top">
         <div class="col">
-          <printable-ergo-header />
+          <printable-ergo-header id="even" :plate="plate" />
           <div class="row">
             <h1 class="title">Addresses</h1>
           </div>
@@ -120,6 +120,7 @@ import { shufflePhrase } from "@/utils/stringHelper";
 import PrintableErgoHeader from "./PrintableErgoHeader.vue";
 import QRCode from "qrcode";
 import Mnemonic from "@/utils/ergo/mnemonic";
+import { WalletChecksum } from "@emurgo/cip4-js";
 
 export default defineComponent({
   name: "PrintWallet",
@@ -133,6 +134,7 @@ export default defineComponent({
     return {
       mnemonic: "",
       publicKey: "",
+      plate: {} as WalletChecksum,
       addresses: [] as string[],
       maxAddresses: Object.freeze(3),
     };
@@ -157,11 +159,12 @@ export default defineComponent({
 
       mnemonic.toSeed().then((seed) => {
         this.publicKey = seed.extendedPublicKey;
+        this.plate = seed.checksum;
 
         QRCode.toCanvas(document.getElementById("pk-canvas"), seed.extendedPublicKey, {
           errorCorrectionLevel: "H",
           margin: 0,
-          scale: 3,
+          scale: 2.6,
         });
 
         this.addresses = [];

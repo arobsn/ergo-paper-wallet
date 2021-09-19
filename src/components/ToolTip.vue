@@ -46,7 +46,7 @@ export default defineComponent({
   name: "ToolTip",
   props: {
     label: { type: String, required: false },
-    dashed: { type: Boolean, default: false, required: true },
+    dashed: { type: Boolean, default: false },
   },
 });
 </script>

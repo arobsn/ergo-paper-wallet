@@ -44,7 +44,7 @@
   >
     <div class="flex p-2 w-full lg:w-10/12 md:w-11/12">
       <label class="select-control mr-1" v-if="at('print')">
-        <span>Wallet strength</span>
+        <span class="pl-1">Wallet strength</span>
         <select v-model="strength" class="block form-select">
           <option :value="128">12 words (128 bits)</option>
           <option :value="160">15 words (160 bits)</option>
