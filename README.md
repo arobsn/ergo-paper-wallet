@@ -1,6 +1,6 @@
 # Ergo Paper Wallet
 
-<img src="https://user-images.githubusercontent.com/87387688/134720742-d7bc4625-0321-4492-80e5-e450df32089a.png" align="right"  width="350">
+<img src="https://user-images.githubusercontent.com/87387688/134721262-183670b3-4f08-42d8-9624-ec1e13594f41.png" align="right"  width="350">
 
 Ergo Paper Wallet is an easy-to-use cold wallet generator for Ergo Platform. With it is possible to completely offline generate a foldable and tamper-resistant paper wallet.
 
