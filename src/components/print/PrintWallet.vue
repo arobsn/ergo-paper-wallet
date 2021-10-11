@@ -74,8 +74,8 @@
               <mdicon name="alert-outline" :size="64" />
             </p>
             <p class="mx-5">
-              <strong>DO NOT REVEAL or SHARE THIS MNEMONIC PHRASE</strong> with anyone. This words
-              gives complete access to funds stored on this wallet.
+              <strong>DO NOT REVEAL or SHARE THIS MNEMONIC PHRASE</strong> with anyone. These words
+              provide complete access to funds stored on this wallet.
             </p>
           </div>
         </div>
@@ -91,8 +91,8 @@
                 {{ shuffledMnemonic }}
               </p>
               <p class="text-xs tracking-normal leading-tight tip-text mt-2">
-                Please, ignore this. Just some noise to help obfuscating mnemonic, just in case
-                someone try to see through the wallet by using a flashlight.
+                Please, ignore this. Just some noise to help obfuscate the mnemonic, just in case
+                someone tries to see through the wallet by using a flashlight.
               </p>
             </div>
           </div>
@@ -100,7 +100,7 @@
             <ul class="list-disc px-4">
               <li>
                 Fold this sheet in four, using the dashed line as a guide, so that the mnemonic
-                phrase stay on the inside part and seal it with tape or glue; and
+                phrase stays on the inside part and seal it with tape or glue; and
               </li>
               <li>
                 Keep it safe and away from humidity. Treat a paper wallet like cash. If you lose it
