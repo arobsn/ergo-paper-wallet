@@ -6,8 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint",
-    "deploy": "git subtree push --prefix dist origin gh-pages"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@coinbarn/ergo-ts": "^0.3.0",
