@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 var webpack = require("webpack");
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/ergo-paper-wallet/" : "/",
   productionSourceMap: false,
   chainWebpack: (config) => {
     config
