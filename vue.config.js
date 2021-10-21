@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 var webpack = require("webpack");
 module.exports = {
+  publicPath: "/",
   productionSourceMap: false,
   chainWebpack: (config) => {
     config
