@@ -29,7 +29,7 @@
         <tool-tip dashed>
           <template v-slot:label>
             <canvas class="inline" id="donate-canvas"></canvas>
-            <span class="block" v-html="$t('start.donate.tooltip')"></span>
+            <span class="block pt-1" v-html="$t('start.donate.tooltip')"></span>
           </template>
           <span class="font-mono text-sm break-all">
             <click-to-copy :value="donateAddr" max-display-length="15" />
