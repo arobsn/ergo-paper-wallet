@@ -16,13 +16,16 @@ import ErgoLogo from "@/components/ErgoLogo.vue";
 import "windi.css";
 import "@/assets/styles";
 
+const navLang = navigator.language.split("-")[0];
+const messages = {
+  en: require("@/locales/en.json"),
+  pt: require("@/locales/pt.json"),
+};
+
 const i18n = createI18n({
-  locale: navigator.language.split("-")[0],
+  locale: Object.keys(messages).includes(navLang) ? navLang : "en",
   fallbackLocale: "en",
-  messages: {
-    en: require("@/locales/en.json"),
-    pt: require("@/locales/pt.json"),
-  },
+  messages,
 });
 
 createApp(App)
