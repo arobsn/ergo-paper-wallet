@@ -5,22 +5,21 @@
         <div class="col">
           <printable-ergo-header id="odd" :plate="plate" />
           <div class="row">
-            <h1 class="title">Public Key</h1>
+            <h1 class="title">{{ $t("print.publicKey.title") }}</h1>
           </div>
           <div class="row text-center flex-grow">
             <p>
               <canvas class="inline" id="pk-canvas"></canvas>
             </p>
             <p class="key mt-4 mx-8">
-              <tool-tip label="Click to copy">
+              <tool-tip :label="$t('global.clickToCopy')">
                 <click-to-copy :value="publicKey" />
               </tool-tip>
             </p>
           </div>
           <div class="row">
             <p class="tip-text">
-              Use this public key to securely check your balance or get more addresses on a
-              read-only wallet.
+              {{ $t("print.publicKey.tip") }}
             </p>
           </div>
         </div>
@@ -29,7 +28,7 @@
         <div class="col">
           <printable-ergo-header id="even" :plate="plate" />
           <div class="row">
-            <h1 class="title">Addresses</h1>
+            <h1 class="title">{{ $t("print.addresses.title") }}</h1>
           </div>
           <div class="row flex-grow">
             <div
@@ -39,9 +38,11 @@
             >
               <div class="flex-grow h-auto">
                 <div class="col">
-                  <p class="text-gray-600 flex-grow text-sm">Address /{{ i }}</p>
+                  <p class="text-gray-600 flex-grow text-sm">
+                    {{ $t("print.addresses.address") }} /{{ i }}
+                  </p>
                   <p class="key">
-                    <tool-tip label="Click to copy">
+                    <tool-tip :label="$t('global.clickToCopy')">
                       <click-to-copy :value="address" />
                     </tool-tip>
                   </p>
@@ -53,14 +54,14 @@
             </div>
           </div>
           <div class="row">
-            <p class="tip-text">You can send your funds to any of the above addresses.</p>
+            <p class="tip-text">{{ $t("print.addresses.tip") }}</p>
           </div>
         </div>
       </div>
       <div class="quarter even-bottom">
         <div class="col">
           <div class="row">
-            <h1 class="title">Mnemonic</h1>
+            <h1 class="title">{{ $t("print.mnemonic.title") }}</h1>
           </div>
           <div class="row flex-grow">
             <div class="mx-3 p-2 bordered">
@@ -73,17 +74,14 @@
             <p class="pt-5 mt-5 inline-block">
               <mdicon name="alert-outline" :size="64" />
             </p>
-            <p class="mx-5">
-              <strong>DO NOT REVEAL or SHARE THIS MNEMONIC PHRASE</strong> with anyone. These words
-              provide complete access to funds stored on this wallet.
-            </p>
+            <p class="mx-5" v-html="$t('print.mnemonic.tip')"></p>
           </div>
         </div>
       </div>
       <div class="quarter">
         <div class="col">
           <div class="row">
-            <h1 class="title">Instructions</h1>
+            <h1 class="title">{{ $t("print.instructions.title") }}</h1>
           </div>
           <div class="row flex-grow">
             <div class="mx-3 p-2 bordered">
@@ -91,20 +89,17 @@
                 {{ shuffledMnemonic }}
               </p>
               <p class="text-xs tracking-normal leading-tight tip-text mt-2">
-                Please, ignore this. Just some noise to help obfuscate the mnemonic, just in case
-                someone tries to see through the wallet by using a flashlight.
+                {{ $t("print.instructions.obfuscatingMsg") }}
               </p>
             </div>
           </div>
           <div class="row leading-normal">
             <ul class="list-disc px-4">
               <li>
-                Fold this sheet in four, using the dashed line as a guide, so that the mnemonic
-                phrase stays on the inside part and seal it with tape or glue; and
+                {{ $t("print.instructions.bulletOne") }}
               </li>
               <li>
-                Keep it safe and away from humidity. Treat a paper wallet like cash. If you lose it
-                or it becomes illegible, your funds are gone forever.
+                {{ $t("print.instructions.bulleTwo") }}
               </li>
             </ul>
           </div>

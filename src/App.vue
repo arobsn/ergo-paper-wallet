@@ -22,7 +22,7 @@
               href="https://ergoplatform.org"
               target="_blank"
               rel="noopener noreferrer"
-              >Ergo Platform
+              >{{ $t("header.ergoPlatform") }}
               <span class="pl-1 pt-1 text-gray-400">
                 <mdicon name="open-in-new" size="12" />
               </span>
@@ -34,9 +34,20 @@
               rel="noopener noreferrer"
               class="px-4 hover:text-gray-800 inline-flex items-center"
               href="https://github.com/anon-br/ergo-paper-wallet"
-              >GitHub
+              >{{ $t("header.github") }}
               <span class="pl-1 pt-1 text-gray-400"> <mdicon name="open-in-new" size="12" /> </span
             ></a>
+          </li>
+          <li>
+            <select v-model="$i18n.locale">
+              <option
+                v-for="locale in $i18n.availableLocales"
+                :key="`locale-${locale}`"
+                :value="locale"
+              >
+                {{ locale }}
+              </option>
+            </select>
           </li>
         </ul>
       </div>

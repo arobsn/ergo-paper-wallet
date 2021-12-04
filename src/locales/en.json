@@ -1,0 +1,59 @@
+{
+  "global": {
+    "clickToCopy": "Click to copy"
+  },
+  "header": {
+    "ergoPlatform": "Ergo Platform",
+    "github": "GitHub"
+  },
+  "start": {
+    "title": "Start",
+    "nextButton": "Lets start!",
+    "keys": {
+      "title": "Your keys, your Ergo.",
+      "content": "By offline generating and printing out your own ergo wallet, you can minimize your exposure to hackers or computer viruses, this brings some peace of mind. Just transfer your funds into your new wallet, and keep it safe and away from humidity."
+    },
+    "offline": {
+      "title": "Go offline.",
+      "content": "For improved security, the whole process can be done offline. Just download the {downloadUrl} file on GitHub, go offline and open it using your browser as a regular .html file!"
+    },
+    "verify": {
+      "title": "Don’t Trust. Verify.",
+      "content": "This tool was built using trusted and well tested libraries, and no data is transmitted in any direction, all the process is executed in your browser. But we encourage all the users to go to our <a class='hover:underline inline-flex' href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>GitHub repo</a> and verify the code by themselves."
+    },
+    "donate": {
+      "title": "Donate.",
+      "content": "If you like this tool and want to to encourage its development, donations are warmly welcomed! Please, send any amount to this address:",
+      "tooltip": "Scan this QR code or <br />click to copy"
+    }
+  },
+  "print": {
+    "title": "Print",
+    "nextButton": "Done",
+    "printButton": "Print",
+    "newWalletButton": "New wallet",
+    "strengthSelect": {
+      "title": "Wallet strength",
+      "words": "words"
+    },
+    "publicKey": {
+      "title": "Public Key",
+      "tip": "Use this public key to securely check your balance or get more addresses on a read-only wallet."
+    },
+    "addresses": {
+      "title": "Addresses",
+      "tip": "You can send your funds to any of the above addresses.",
+      "address": "Address"
+    },
+    "mnemonic": {
+      "title": "Mnemonic",
+      "tip": "<strong>DO NOT REVEAL or SHARE THIS MNEMONIC PHRASE</strong> with anyone. These words provide complete access to funds stored on this wallet."
+    },
+    "instructions": {
+      "title": "Instructions",
+      "obfuscatingMsg": "Please, ignore this. Just some noise to help obfuscate the mnemonic, just in case someone tries to see through the wallet by using a flashlight.",
+      "bulletOne": "Fold this sheet in four, using the dashed line as a guide, so that the mnemonic phrase stays on the inside part and seal it with tape or glue; and",
+      "bulleTwo": "Keep it safe and away from humidity. Treat a paper wallet like cash. If you lose it or it becomes illegible, your funds are gone forever."
+    }
+  }
+}

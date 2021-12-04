@@ -22,7 +22,8 @@
     "feather-icons": "^4.28.0",
     "mdi-vue": "^3.0.7",
     "qrcode": "^1.4.4",
-    "vue": "^3.2.2"
+    "vue": "^3.2.2",
+    "vue-i18n": "^9.2.0-beta.23"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",

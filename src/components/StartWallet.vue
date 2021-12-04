@@ -1,54 +1,35 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mx-10">
     <div class="">
-      <h1 class="text-xl font-semibold">Your keys, your Ergo.</h1>
+      <h1 class="text-xl font-semibold">{{ $t("start.keys.title") }}</h1>
       <p class="font-light">
-        By offline generating and printing out your own ergo wallet, you can minimize your exposure
-        to hackers or computer viruses, this brings some peace of mind. Just transfer your funds
-        into your new wallet, and keep it safe and away from humidity.
+        {{ $t("start.keys.content") }}
       </p>
     </div>
     <div class="">
-      <h1 class="text-xl font-semibold">Go offline.</h1>
-      <p class="font-light">
-        For improved security, the whole process can be done offline. Just download the
-        <a class="hover:underline" href="standalone.html" download
-          ><span class="font-mono">standalone.html</span></a
-        >
-        file on GitHub, go offline and open it using your browser as a regular .html file!
-      </p>
+      <h1 class="text-xl font-semibold">{{ $t("start.offline.title") }}</h1>
+      <p
+        class="font-light"
+        v-html="
+          $t('start.offline.content', {
+            downloadUrl:
+              '<a class=\'hover:underline\' href=\'standalone.html\' download><span class=\'font-mono\'>standalone.html</span></a>',
+          })
+        "
+      ></p>
     </div>
     <div class="">
-      <h1 class="text-xl font-semibold">Don’t Trust. Verify.</h1>
-      <p class="font-light">
-        This tool was built using trusted and well tested libraries, and no data is transmitted in
-        any direction, all the process is executed in your browser. But we encourage all the users
-        to go to our
-        <a
-          class="hover:underline inline-flex"
-          href="https://github.com/anon-br/ergo-paper-wallet"
-          target="_blank"
-          rel="noopener noreferrer"
-          >GitHub repo
-          <span class="pl-1 pt-2 text-gray-400">
-            <mdicon name="open-in-new" size="12" />
-          </span>
-        </a>
-        and verify the code by themselves.
-      </p>
+      <h1 class="text-xl font-semibold">{{ $t("start.verify.title") }}</h1>
+      <p class="font-light" v-html="$t('start.verify.content')"></p>
     </div>
     <div class="">
-      <h1 class="text-xl font-semibold">Donate.</h1>
+      <h1 class="text-xl font-semibold">{{ $t("start.donate.title") }}</h1>
       <p class="font-light">
-        If you like this tool and want to to encourage its development, donations are warmly
-        welcomed! Please, send any amount to this address:
+        {{ $t("start.donate.content") }}
         <tool-tip dashed>
           <template v-slot:label>
             <canvas class="inline" id="donate-canvas"></canvas>
-            <span class="block">
-              Scan this QR code or <br />
-              click to copy
-            </span>
+            <span class="block" v-html="$t('start.donate.tooltip')"></span>
           </template>
           <span class="font-mono text-sm break-all">
             <click-to-copy :value="donateAddr" />

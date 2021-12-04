@@ -3,14 +3,14 @@
     <div class="mx-4 p-4 print:hidden">
       <div class="wiz-header">
         <wizard-header-item
-          label="Start"
+          :label="$t('start.title')"
           icon="bookmark-outline"
           :step-number="1"
           :current-step="currentStep"
           position="begin"
         />
         <wizard-header-item
-          label="Print"
+          :label="$t('print.title')"
           icon="printer"
           :step-number="2"
           :current-step="currentStep"
@@ -44,19 +44,21 @@
   >
     <div class="flex p-2 w-full lg:w-10/12 md:w-11/12">
       <label class="select-control mr-1" v-if="at('print')">
-        <span class="pl-1">Wallet strength</span>
+        <span class="pl-1">{{ $t("print.strengthSelect.title") }}</span>
         <select v-model="strength" class="block form-select">
-          <option :value="128">12 words (128 bits)</option>
-          <option :value="160">15 words (160 bits)</option>
-          <option :value="256">24 words (256 bits)</option>
+          <option :value="128">12 {{ $t("print.strengthSelect.words") }} (128 bits)</option>
+          <option :value="160">15 {{ $t("print.strengthSelect.words") }} (160 bits)</option>
+          <option :value="256">24 {{ $t("print.strengthSelect.words") }} (256 bits)</option>
         </select>
       </label>
       <button class="btn mr-1" type="button" v-if="at('print')" @click="newWallet()">
-        New wallet
+        {{ $t("print.newWalletButton") }}
       </button>
       <div class="flex-auto flex flex-row-reverse">
         <button @click="nextStep()" class="btn primary" type="button">{{ nextBtnlabel }}</button>
-        <button class="btn mr-4" type="button" v-if="at('print')" @click="print()">Print</button>
+        <button class="btn mr-4" type="button" v-if="at('print')" @click="print()">
+          {{ $t("print.printButton") }}
+        </button>
       </div>
     </div>
   </div>
@@ -86,10 +88,10 @@ export default defineComponent({
   computed: {
     nextBtnlabel() {
       if (this.at("start")) {
-        return "Let's Start!";
+        return this.$t("start.nextButton");
       }
 
-      return "Done!";
+      return this.$t("print.nextButton");
     },
   },
   methods: {
