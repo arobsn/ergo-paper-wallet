@@ -19,7 +19,7 @@
     },
     "verify": {
       "title": "Don’t Trust. Verify.",
-      "content": "This tool was built using trusted and well tested libraries, no data is transmitted in any direction and all the process is executed locally at your browser. But don't trust, go to our <a class='hover:underline inline-flex' href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>GitHub repo</a> and verify."
+      "content": "This tool was built using trusted and well tested libraries, no data is transmitted in any direction and all the process is executed locally at your browser. But don't trust, go to our <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>GitHub repo</a> and verify."
     },
     "donate": {
       "title": "Donate.",

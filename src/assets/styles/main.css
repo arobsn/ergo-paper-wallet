@@ -8,11 +8,15 @@ body {
 }
 
 .select-control {
-  @apply px-2 py-0.5 text-sm ml-1 mb-1 default-control font-light;
+  @apply px-2 py-0.5 text-sm ml-1 mb-1 default-control font-light ;
 }
 
 .select-control select {
-  @apply font-semibold cursor-pointer;
+  @apply font-semibold cursor-pointer bg-transparent;
+}
+
+.text-block a {
+  @apply hover:underline text-blue-800
 }
 
 .btn {

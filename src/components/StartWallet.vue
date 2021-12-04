@@ -1,12 +1,12 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mx-10">
-    <div class="">
+    <div class="text-block">
       <h1 class="text-xl font-semibold">{{ $t("start.keys.title") }}</h1>
       <p class="font-light">
         {{ $t("start.keys.content") }}
       </p>
     </div>
-    <div class="">
+    <div class="text-block">
       <h1 class="text-xl font-semibold">{{ $t("start.offline.title") }}</h1>
       <p
         class="font-light"
@@ -18,11 +18,11 @@
         "
       ></p>
     </div>
-    <div class="">
+    <div class="text-block">
       <h1 class="text-xl font-semibold">{{ $t("start.verify.title") }}</h1>
       <p class="font-light" v-html="$t('start.verify.content')"></p>
     </div>
-    <div class="">
+    <div class="text-block">
       <h1 class="text-xl font-semibold">{{ $t("start.donate.title") }}</h1>
       <p class="font-light">
         {{ $t("start.donate.content") }}
@@ -32,7 +32,7 @@
             <span class="block" v-html="$t('start.donate.tooltip')"></span>
           </template>
           <span class="font-mono text-sm break-all">
-            <click-to-copy :value="donateAddr" />
+            <click-to-copy :value="donateAddr" max-display-length="15" />
           </span>
         </tool-tip>
       </p>

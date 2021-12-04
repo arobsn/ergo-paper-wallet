@@ -1,6 +1,6 @@
 <template>
   <a @click="onClick()" class="cursor-pointer">
-    <span class="pr-1">{{ value }}</span>
+    <span class="pr-1">{{ displayValue }}</span>
     <mdicon
       :static-class="'inline-block print:hidden' + (copied ? ' text-green-800' : '')"
       :name="icon"
@@ -16,6 +16,7 @@ export default defineComponent({
   name: "ClickToCopy",
   props: {
     value: { type: String, required: true },
+    maxDisplayLength: { type: Number, required: false },
   },
   watch: {
     value() {
@@ -35,8 +36,22 @@ export default defineComponent({
 
       return "checkbox-multiple-marked-outline";
     },
+    displayValue() {
+      if (this.maxDisplayLength && this.maxDisplayLength > 0) {
+        const fragmentSize = Math.trunc(this.maxDisplayLength / 2);
+        return `${this.value.substr(0, fragmentSize)}...${this.value.substr(
+          this.value.length - fragmentSize
+        )}`;
+      }
+
+      return this.value;
+    },
   },
   methods: {
+    compactString(val: string, maxSize: number) {
+      const fragmentSize = Math.trunc(maxSize);
+      return `${val.substr(0, fragmentSize)}...${val.substr(val.length - fragmentSize)}`;
+    },
     onClick() {
       navigator.clipboard.writeText(this.value);
       this.setCopied();

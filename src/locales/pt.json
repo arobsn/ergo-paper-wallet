@@ -19,12 +19,12 @@
     },
     "verify": {
       "title": "Não confie. Verifique.",
-      "content": "Esta ferramente foi criada usando bibliotecas confiáveis e bem testadas, nenhum dado é transferido em nenhuma direção e todo o processo é executado localmente em seu navegador. Mas não confie, vá ao <a class='hover:underline inline-flex' href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>nosso repositório no Github</a> e verifique."
+      "content": "Esta ferramente foi criada usando bibliotecas confiáveis e bem testadas, nenhum dado é transferido em nenhuma direção e todo o processo é executado localmente em seu navegador. Mas não confie, vá ao <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>nosso repositório no Github</a> e verifique."
     },
     "donate": {
       "title": "Doe.",
       "content": "Se você gostou desta ferramenta e deseja de encorajar o seu desenvolvimento, doações são calorosamente bem vindas! Por favor, envie qualquer quantia para este endereço:",
-      "tooltip": "Escaneie este QR Code ou <br />clique para copiar"
+      "tooltip": "Escaneie este QR Code <br />ou clique para copiar"
     }
   },
   "print": {
