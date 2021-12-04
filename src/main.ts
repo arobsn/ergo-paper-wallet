@@ -17,10 +17,11 @@ import "windi.css";
 import "@/assets/styles";
 
 const i18n = createI18n({
-  locale: "en",
+  locale: navigator.language.split("-")[0],
   fallbackLocale: "en",
   messages: {
     en: require("@/locales/en.json"),
+    pt: require("@/locales/pt.json"),
   },
 });
 

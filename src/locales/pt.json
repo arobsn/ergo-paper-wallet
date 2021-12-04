@@ -1,0 +1,59 @@
+{
+  "global": {
+    "clickToCopy": "Clique para copiar"
+  },
+  "header": {
+    "ergoPlatform": "Ergo Platform",
+    "github": "GitHub"
+  },
+  "start": {
+    "title": "Início",
+    "nextButton": "Vamos começar!",
+    "keys": {
+      "title": "Suas chaves, suas Ergos.",
+      "content": "Ao gerar e imprimir offline a sua carteira ergo você pode minimizar a sua exposição à hackers e vírus de computador, isto traz paz de espírito. Apenas transfira os seus ativos para a sua nova carteira e a mantenha em um local seguro e longe de umidade."
+    },
+    "offline": {
+      "title": "Fique Offline.",
+      "content": "Para maior segurança, todo o processo pode ser feito offline. Apenas baixe o arquivo {downloadUrl} no GitHub, fique offline e o abra em seu navegador como um arquivo .html normal!"
+    },
+    "verify": {
+      "title": "Não confie. Verifique.",
+      "content": "Esta ferramente foi criada usando bibliotecas confiáveis e bem testadas, nenhum dado é transferido em nenhuma direção e todo o processo é executado localmente em seu navegador. Mas não confie, vá ao <a class='hover:underline inline-flex' href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>nosso repositório no Github</a> e verifique."
+    },
+    "donate": {
+      "title": "Doe.",
+      "content": "Se você gostou desta ferramenta e deseja de encorajar o seu desenvolvimento, doações são calorosamente bem vindas! Por favor, envie qualquer quantia para este endereço:",
+      "tooltip": "Escaneie este QR Code ou <br />clique para copiar"
+    }
+  },
+  "print": {
+    "title": "Imprimir",
+    "nextButton": "Finalizar",
+    "printButton": "Imprimir",
+    "newWalletButton": "Nova carteira",
+    "strengthSelect": {
+      "title": "Força da carteira",
+      "words": "palavras"
+    },
+    "publicKey": {
+      "title": "Chave pública",
+      "tip": "Use esta chave pública para para conferir o seu saldo de forma segura ou para obter mais endereços em uma carteira read-only."
+    },
+    "addresses": {
+      "title": "Endereços",
+      "tip": "Você pode enviar seus fundos para qualquer um dos endereços acima.",
+      "address": "Endereço"
+    },
+    "mnemonic": {
+      "title": "Mnemônicos",
+      "tip": "<strong>NÃO REVELE OU COMPARTILHE ESTA FRASE MNEMÔNICA</strong> com ninguém. Estas palavras permitem acesso completo aos fundos armazenados nesta carteira."
+    },
+    "instructions": {
+      "title": "Instruções",
+      "obfuscatingMsg": "Por favor, ignore isto. Apenas algum ruído para ajudar a ofuscar os mnemônicos, caso alguém tende vê-los através da carteira usando uma lanterna.",
+      "bulletOne": "Dobre esta folha em quatro partes usando a linha pontilhada como guia, de forma the a frase mnemônica fique do lado de dentro e, em seguida, sele-a com fita ou cola; e",
+      "bulleTwo": "Mantenha-a segura e longe de umidade. Trate a sua carteira de papel como se fosse dinheiro. Se você perde-la ou ela se tornar ilegível, seus fundos estarão perdidos para sempre."
+    }
+  }
+}
