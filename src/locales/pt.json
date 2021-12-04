@@ -37,7 +37,7 @@
       "words": "palavras"
     },
     "publicKey": {
-      "title": "Chave pública",
+      "title": "Chave Pública",
       "tip": "Use esta chave pública para para conferir o seu saldo de forma segura ou para obter mais endereços em uma carteira read-only."
     },
     "addresses": {
