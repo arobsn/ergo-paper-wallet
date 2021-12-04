@@ -11,7 +11,7 @@
     "nextButton": "Lets start!",
     "keys": {
       "title": "Your keys, your Ergo.",
-      "content": "By offline generating and printing out your own ergo wallet you can minimize your exposure to hackers or computer viruses, this brings peace of mind. Just transfer your funds into your new wallet and keep it a safe place and away from humidity."
+      "content": "By offline generating and printing out your paper wallet, you drastically minimize your exposure to hackers or computer viruses. So just transfer your funds into your new wallet, keep it in a safe place and away from humidity and enjoy the peace of mind of knowing your funds are safe."
     },
     "offline": {
       "title": "Go offline.",
@@ -19,7 +19,7 @@
     },
     "verify": {
       "title": "Don’t Trust. Verify.",
-      "content": "This tool was built using trusted and well tested libraries, no data is transmitted in any direction and all the process is executed locally at your browser. But don't trust, go to our <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>GitHub repo</a> and verify."
+      "content": "This tool was built using trusted and well tested libraries by the community, no data is transmitted in any direction and all the process is executed locally at your browser. But don't trust, go to our <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>GitHub repo</a> and verify."
     },
     "donate": {
       "title": "Donate.",

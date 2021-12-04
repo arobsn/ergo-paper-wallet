@@ -11,7 +11,7 @@
     "nextButton": "Vamos começar!",
     "keys": {
       "title": "Suas chaves, suas Ergos.",
-      "content": "Ao gerar e imprimir offline a sua carteira ergo você pode minimizar a sua exposição à hackers e vírus de computador, isto traz paz de espírito. Apenas transfira os seus ativos para a sua nova carteira e a mantenha em um local seguro e longe de umidade."
+      "content": "Ao gerar e imprimir offline a sua carteira de papel, você minimiza drasticamente a sua exposição à hackers e vírus de computador. Então apenas transfira os seus ativos para a sua nova carteira, mantenha-a em um local seguro e longe de umidade e aproveite a paz de espírito em saber que os seus fundos estão a salvo."
     },
     "offline": {
       "title": "Fique Offline.",
@@ -19,7 +19,7 @@
     },
     "verify": {
       "title": "Não confie. Verifique.",
-      "content": "Esta ferramente foi criada usando bibliotecas confiáveis e bem testadas, nenhum dado é transferido em nenhuma direção e todo o processo é executado localmente em seu navegador. Mas não confie, vá ao <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>nosso repositório no Github</a> e verifique."
+      "content": "Esta ferramente foi criada usando bibliotecas confiáveis e bem testadas pela comunidade, nenhum dado é transferido em nenhuma direção e todo o processo é executado localmente em seu navegador. Mas não confie, vá ao <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>nosso repositório no Github</a> e verifique."
     },
     "donate": {
       "title": "Doe.",

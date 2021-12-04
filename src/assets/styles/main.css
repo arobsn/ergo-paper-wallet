@@ -12,7 +12,7 @@ body {
 }
 
 .select-control select {
-  @apply font-semibold cursor-pointer bg-transparent;
+  @apply font-semibold cursor-pointer bg-transparent outline-transparent;
 }
 
 .text-block a {

@@ -39,7 +39,10 @@
             ></a>
           </li>
           <li>
-            <select v-model="$i18n.locale" class="uppercase cursor-pointer bg-transparent">
+            <select
+              v-model="$i18n.locale"
+              class="uppercase cursor-pointer bg-transparent outline-transparent"
+            >
               <option
                 v-for="locale in $i18n.availableLocales"
                 :key="`locale-${locale}`"
