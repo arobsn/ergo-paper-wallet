@@ -1,0 +1,59 @@
+{
+  "global": {
+    "clickToCopy": "点击复制"
+  },
+  "header": {
+    "ergoPlatform": "Ergo平台",
+    "github": "GitHub"
+  },
+  "start": {
+    "title": "开始",
+    "nextButton": "我们开始吧！",
+    "keys": {
+      "title": "您的密钥，您的Ergo。",
+      "content": "通过离线生成并打印您的纸钱包，您可以大幅度尽可能地减少接触黑客或计算机病毒的风险。所以只需将您的资金转入您的新钱包中，将其保存在安全的地方，远离潮湿，放心地知道您的资金是安全的。"
+    },
+    "offline": {
+      "title": "离线。",
+      "content": "为了提高安全性，整个过程可以离线完成。只需在 GitHub 上下载 {downloadUrl } 文档，然后离线，并使用浏览器将其作为常规 .html 文件打开！"
+    },
+    "verify": {
+      "title": "切勿轻信。要去验证。",
+      "content": "此工具是使用社区信任且经过良好测试的库构建的，不会向任何方向传输任何数据，所有过程都在您的浏览器上本地执行。但切勿轻信，而要前往我们的 <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>GitHub库</a> 并验证。"
+    },
+    "donate": {
+      "title": "捐赠。",
+      "content": "如果您喜欢此工具并希望鼓励它的开发，欢迎捐赠！请把任何金额发送到这个地址：",
+      "tooltip": "扫描此二维码或<br />点击复制"
+    }
+  },
+  "print": {
+    "title": "打印",
+    "nextButton": "完成",
+    "printButton": "打印",
+    "newWalletButton": "新钱包",
+    "strengthSelect": {
+      "title": "钱包强度",
+      "words": "单词"
+    },
+    "publicKey": {
+      "title": "公钥",
+      "tip": "在只读钱包中使用此公钥安全地核查您的余额或获取更多地址。"
+    },
+    "addresses": {
+      "title": "地址",
+      "tip": "您可以将资金发送到上述任何地址。",
+      "address": "地址"
+    },
+    "mnemonic": {
+      "title": "助记词",
+      "tip": "<strong>切勿向任何人透露或分享此助记词</strong>。这些词可让人完全取用存储在此钱包中的资金。"
+    },
+    "instructions": {
+      "title": "须知",
+      "obfuscatingMsg": "请忽略这一点。只是一些噪音来帮助混淆助记词，以防有人试图用手电筒看穿钱包。",
+      "bulletOne": "沿着虚线将纸钱包折叠成四部分，这样助记词就留在里面，然后用胶带或胶水密封好它；且",
+      "bulleTwo": "将纸钱包安全保存并远离潮湿。像对待现金一样对待纸钱包。如果纸钱包被您弄丢或变得难以辨认，您的资金将永远找不回来。"
+    }
+  }
+}

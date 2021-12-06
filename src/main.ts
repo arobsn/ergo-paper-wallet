@@ -20,6 +20,7 @@ const navLang = navigator.language.split("-")[0];
 const messages = {
   en: require("@/locales/en.json"),
   pt: require("@/locales/pt.json"),
+  zh: require("@/locales/zh.json"),
 };
 
 const i18n = createI18n({
