@@ -74,7 +74,12 @@
             <p class="pt-5 mt-5 inline-block">
               <mdicon name="alert-outline" :size="64" />
             </p>
-            <p class="mx-5" v-html="$t('print.mnemonic.tip')"></p>
+            <p class="mx-5 pb-10" v-html="$t('print.mnemonic.tip')"></p>
+          </div>
+          <div class="row" v-if="$te('global.translationCredits')">
+            <p class="tip-text">
+              {{ $t("global.translationCredits") }}
+            </p>
           </div>
         </div>
       </div>

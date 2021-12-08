@@ -1,6 +1,7 @@
 {
   "global": {
-    "clickToCopy": "Click para copiar"
+    "clickToCopy": "Click para copiar",
+    "translationCredits": "Spanish translation was done by the $COMET community"
   },
   "header": {
     "ergoPlatform": "Ergo Platform",
@@ -14,7 +15,7 @@
       "content": "Al generar e imprimir tus llaves fuera de línea minimizas drásticamente tu exposición a viruses y hackers. Transfiere tus fondos a tu nueva billetera, mantenla en un lugar seguro y seco. Disfruta de la tranquilidad de saber que tus fondos están a salvo."
     },
     "offline": {
-      "title": "desconectarse de internet",
+      "title": "Desconectarse de internet.",
       "content": "Para mayor seguridad el proceso completo puede realizarse desconectado de internet. Sólo descarga el {downloadUrl} archivo en GitHub, desconéctate de internet y abre el archivo usando tu navegador como si fuera cualquier archivo .html!"
     },
     "verify": {
