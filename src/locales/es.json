@@ -1,0 +1,59 @@
+{
+  "global": {
+    "clickToCopy": "Click para copiar"
+  },
+  "header": {
+    "ergoPlatform": "Ergo Platform",
+    "github": "GitHub"
+  },
+  "start": {
+    "title": "Inicio",
+    "nextButton": "Comencemos!",
+    "keys": {
+      "title": "Tus llaves, tu Ergo.",
+      "content": "Al generar e imprimir tus llaves fuera de línea minimizas drásticamente tu exposición a viruses y hackers. Transfiere tus fondos a tu nueva billetera, mantenla en un lugar seguro y seco. Disfruta de la tranquilidad de saber que tus fondos están a salvo."
+    },
+    "offline": {
+      "title": "desconectarse de internet",
+      "content": "Para mayor seguridad el proceso completo puede realizarse desconectado de internet. Sólo descarga el {downloadUrl} archivo en GitHub, desconéctate de internet y abre el archivo usando tu navegador como si fuera cualquier archivo .html!"
+    },
+    "verify": {
+      "title": "No confíes! verifica!",
+      "content": "Esta herramienta fue construida con liberías confiables y probadas por la comunidad los datos nos son transmitidos en ninguna dirección y el proceso es ejecutado localmente en tu navegador. Pero no confíes, anda a nuestro <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>GitHub repo</a> y verifícalo"
+    },
+    "donate": {
+      "title": "Donar.",
+      "content": "Si te gustó esta herramienta y quieres alentar su desarrollo las donaciones son gratamente bienvenidas! Por favor, envía cualquier monto a la siguiente dirección:",
+      "tooltip": "Scan this QR Code or <br />click to copy"
+    }
+  },
+  "print": {
+    "title": "Imprimir",
+    "nextButton": "Listo",
+    "printButton": "Imprimir",
+    "newWalletButton": "Nueva billetera",
+    "strengthSelect": {
+      "title": "Seguridad de la billetera",
+      "words": "palabras"
+    },
+    "publicKey": {
+      "title": "Llave publica",
+      "tip": "Usa esta llave pública para revisar de forma segura tu balance o para generar más direcciones en una wallet que admita sólo lectura."
+    },
+    "addresses": {
+      "title": "Direcciones",
+      "tip": "Puedes enviar fondos a cualquiera de estas direcciones",
+      "address": "Dirección"
+    },
+    "mnemonic": {
+      "title": "Frase mnemónica",
+      "tip": "<strong>NO REVELES NI COMPARTES ESTA FRASE</strong> con nadie. Estas palabras entregan control total sobre los fondos de esta billetera"
+    },
+    "instructions": {
+      "title": "Instrucciones",
+      "obfuscatingMsg": "Porfavor ignora esto. Es tan sólo para hacer que sea más difícil leer la frase mnemónica en caso de que alguien intente leerla con una linterna. ",
+      "bulletOne": "Dobla este papel en cuatro partes siguiendo la línea punteada como guía, de tal manera que la frase quede en el interior, luego séllala con cinta adhesiva o pegamento; y",
+      "bulleTwo": "Manten el papel seguro y alejado de la humedad. Trata este papel como si fuera un billete. Si lo pierdes o queda ilegible, perderás tus fondos para siempre."
+    }
+  }
+}
