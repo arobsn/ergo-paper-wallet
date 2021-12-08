@@ -33,11 +33,11 @@ export default class Seed {
   public get checksum(): WalletChecksum {
     // The parent fingerprint and index fields need to be
     // removed to get the same result as Yoroi.
-    const pk = this.removeParentFingerphintAndIndex(Buffer.from(this._pk));
+    const pk = this.removeParentFingerprintAndIndex(Buffer.from(this._pk));
     return walletChecksum(pk.toString("hex"));
   }
 
-  private removeParentFingerphintAndIndex(key: Buffer) {
+  private removeParentFingerprintAndIndex(key: Buffer) {
     return key.fill(0, 4, 12);
   }
 
