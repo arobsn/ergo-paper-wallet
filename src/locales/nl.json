@@ -1,0 +1,59 @@
+{
+  "global": {
+    "clickToCopy": "Klik om te kopiëren"
+  },
+  "header": {
+    "ergoPlatform": "Ergo Platform",
+    "github": "GitHub"
+  },
+  "start": {
+    "title": "Start",
+    "nextButton": "Starten!",
+    "keys": {
+      "title": "Uw sleutels, uw Ergo.",
+      "content": "Door het offline genereren en afdrukken van uw papieren wallet, vermindert u uw kwetsbaarheid voor hackers of computer virussen drastisch. Dus, verstuur uw middelen naar uw nieuwe wallet, bewaar deze op een veilige, droge plaats en geniet van de rust wetende dat uw middelen veilig zijn."
+    },
+    "offline": {
+      "title": "Ga offline.",
+      "content": "Voor verbeterde veiligheid kan het gehele proces offline worden verricht. Download eenvoudig het {downloadUrl} bestand op GitHub, ga offline en open het middels uw internet browser als een regulier .html-bestand!"
+    },
+    "verify": {
+      "title": "Vertrouw niet. Verifieer.",
+      "content": "Dit hulpmiddel is gebouwd middels vertrouwde en geteste bronnen uit de community, geen enkele data is verzonden in welke weg dan ook en alle processen worden lokaal uitgevoerd in uw internet browser. Maar vertrouw niet, ga naar onze <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>GitHub repo</a> en verifieer."
+    },
+    "donate": {
+      "title": "Doneer.",
+      "content": "Als u dit hulpmiddel waardeert, en de verdere ontwikkeling wilt stimuleren, dan zijn donaties meer dan welkom. Stuur welk bedrag dan ook naar dit adres:",
+      "tooltip": "Scan deze QR Code of <br />klik om te kopiëren"
+    }
+  },
+  "print": {
+    "title": "Afdrukken",
+    "nextButton": "Klaar",
+    "printButton": "Afdrukken",
+    "newWalletButton": "Nieuwe wallet",
+    "strengthSelect": {
+      "title": "Wallet sterkte",
+      "words": "woorden"
+    },
+    "publicKey": {
+      "title": "Publieke Sleutel",
+      "tip": "Gebruik deze publieke sleutel om veilig uw saldo te controlleren of verkrijg meer adressen met een alleen-lezen wallet."
+    },
+    "addresses": {
+      "title": "Adressen",
+      "tip": "U kunt uw middelen sturen naar elk van de bovenstaande adressen.",
+      "address": "Adres"
+    },
+    "mnemonic": {
+      "title": "Sleutelwoorden",
+      "tip": "<strong>TOON OF DEEL DEZE SLEUTELWOORDEN NIET</strong> met iemand. Deze woorden verschaffen volledige toegang tot de middelen die zijn opgeslagen in deze wallet."
+    },
+    "instructions": {
+      "title": "Gebruiksaanwijzing",
+      "obfuscatingMsg": "Negeer dit alstublieft. Dit is slechts wat ruis om de sleutelwoorden te helpen verbergen, in het geval dat iemand door de wallet probeert heen te kijken met een zaklamp.",
+      "bulletOne": "Vouw de wallet in vieren met de stippellijnen als richtlijn, zodat de sleutelwoorden aan de binnenkant blijven, en verzegel de wallet daarna met tape of lijm; en",
+      "bulleTwo": "Bewaar het op een veilige en droge plek. Behandel een paper wallet zoals cashgeld. Bij verlies of bij onbruikbaarheid van het papier zijn uw middelen voor altijd ontoegankelijk."
+    }
+  }
+}

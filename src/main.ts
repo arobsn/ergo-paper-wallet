@@ -22,6 +22,7 @@ const messages = {
   en: require("@/locales/en.json"),
   es: require("@/locales/es.json"),
   id: require("@/locales/id.json"),
+  nl: require("@/locales/nl.json"),
   pt: require("@/locales/pt.json"),
   zh: require("@/locales/zh.json"),
 };
