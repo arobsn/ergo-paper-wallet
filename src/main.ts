@@ -18,8 +18,10 @@ import "@/assets/styles";
 
 const navLang = navigator.language.split("-")[0];
 const messages = {
+  el: require("@/locales/el.json"),
   en: require("@/locales/en.json"),
   es: require("@/locales/es.json"),
+  id: require("@/locales/id.json"),
   pt: require("@/locales/pt.json"),
   zh: require("@/locales/zh.json"),
 };

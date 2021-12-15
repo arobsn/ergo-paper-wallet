@@ -1,0 +1,60 @@
+{
+  "global": {
+    "clickToCopy": "Klik untuk menyalin",
+    "translationCredits": "Indonesian translation was done by the $COMET community"
+  },
+  "header": {
+    "ergoPlatform": "Ergo Platform",
+    "github": "GitHub"
+  },
+  "start": {
+    "title": "Mulai",
+    "nextButton": "Ayo mulai!",
+    "keys": {
+      "title": "Kunci anda, Ergo anda.",
+      "content": "Dengan membuat dan mencetak dompet kertas anda, anda secara drastis memperkecil eksposur anda dari peretas dan virus komputer. Jadi, transfer saja dana anda ke dompet baru anda, simpan di tempat yang aman dan tidak lembab, dan nikmati ketenangan pikiran dengan mengetahui bahwa dana anda tersimpan dengan aman."
+    },
+    "offline": {
+      "title": "Pergi ke luar jaringan.",
+      "content": "Untuk meningkatkan keamanan, seluruh proses dapat dilakukan secara offline (di luar jaringan). Unduh saja file {downloadUrl} dari GitHub, pergi ke luar jaringan dan buka file tersebut menggunakan browser anda sebagai file .html biasa!"
+    },
+    "verify": {
+      "title": "Jangan percaya. Periksa.",
+      "content": "Alat ini dibuat menggunakan sumber-sumber pustaka yang terpercaya dan sudah teruji oleh komunitas, tidak ada data yang dikirimkan dari/ke arah manapun dan semua proses dilakukan secara local di dalam browser anda. Tapi jangan hanya percaya, pergi ke <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>GitHub repo</a> kami dan periksa."
+    },
+    "donate": {
+      "title": "Sumbangan.",
+      "content": "Jika anda menyukai alat ini dan ingin membantu pengembangannya, sumbangan dari anda akan sangat dihargai! Mohon kirim seikhlasnya ke alamat ini:",
+      "tooltip": "Pinda kode QR ini atau <br />klik untuk menyalin"
+    }
+  },
+  "print": {
+    "title": "Cetak",
+    "nextButton": "Selesai",
+    "printButton": "Cetak",
+    "newWalletButton": "Dompet baru",
+    "strengthSelect": {
+      "title": "Kekuatan dompet",
+      "words": "kata-kata"
+    },
+    "publicKey": {
+      "title": "Kunci Publik ",
+      "tip": "Gunakan kunci publik ini untuk memeriksa secara aman saldo anda atau memperoleh alamat-alamat tambahan untuk dompet yang hanya bisa dibaca (read-only)."
+    },
+    "addresses": {
+      "title": "Alamat-alamat",
+      "tip": "Anda dapat mengirim dana anda ke alamat-alamat di atas.",
+      "address": "Alamat-alamat"
+    },
+    "mnemonic": {
+      "title": "Mnemonik",
+      "tip": "<strong>JANGAN MENGUNGKAPKAN or MEMBAGIKAN FRASA MNEMONIK INI</strong> dengan siapapun. Kata-kata ini memberikan akses ke dana yang di simpan di dompet ini."
+    },
+    "instructions": {
+      "title": "Petunjuk",
+      "obfuscatingMsg": "Mohon abaikan ini. Ini hanya pengalihan untuk mengaburkan mnemonik, untuk berjaga-jaga apabila ada yang mencoba untuk melihat tembus dompet ini menggunakan senter.",
+      "bulletOne": "Lipat lebaran ini menjadi empat bagian dengan menggunakan garis putus-putus sebagai panduan, sehingga frasa mnemonik tetap berada di bagian dalam dan, setelah itu, segel dengan selotip atau lem; dan",
+      "bulleTwo": "Simpan di tempat yang aman dan jauh dari kelembaban. Perlakukan dompet kertas seperti uang. Jika hilang atau menjadi tidak terbaca, dana anda akan hilang selamanya."
+    }
+  }
+}
