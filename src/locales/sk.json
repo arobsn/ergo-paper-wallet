@@ -1,0 +1,59 @@
+{
+  "global": {
+    "clickToCopy": "Kliknutím skopírujete"
+  },
+  "header": {
+    "ergoPlatform": "Ergo Platforma",
+    "github": "GitHub"
+  },
+  "start": {
+    "title": "Štart",
+    "nextButton": "Začnime!",
+    "keys": {
+      "title": "Vaše kľúče, Vaše Ergo.",
+      "content": "Vytvorením a vytlačením papierovej peňaženky offline výrazne minimalizujete šancu vystaviť sa hackerom alebo počítačovým vírusom. Stačí jednoducho presunúť Vaše prostriedky do Vašej novej peňaženky, uschovajte ju na bezpečnom mieste a mimo dosahu vlhkosti a užívajte si pokoj s vedomím, že Vaše finančné prostriedky sú v bezpečí."
+    },
+    "offline": {
+      "title": "Prejdite do offline režimu.",
+      "content": "Pre lepšiu bezpečnosť je možné celý proces vykonať offline. Stačí stiahnuť súbor {downloadUrl} z GitHub-u, prejsť do offline režimu a otvoriť ho pomocou prehliadača ako bežný súbor .html!"
+    },
+    "verify": {
+      "title": "Neverte. Overujte.",
+      "content": "Tento nástroj bol vytvorený pomocou dôveryhodných a komunitou dobre otestovaných knižníc, žiadne údaje sa neprenášajú žiadnym smerom a celý proces sa vykonáva lokálne vo vašom prehliadači. Ale neverte, prejdite na naše <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>úložisko GitHub</a> a overte si to."
+    },
+    "donate": {
+      "title": "Darujte.",
+      "content": "Ak sa Vám tento nástroj páči a chcete podporiť jeho vývoj, dary sú srdečne vítané! Akúkoľvek čiastku, prosím, zašlite na túto adresu:",
+      "tooltip": "Naskenujte tento QR kód alebo <br />kliknutím skopírujte"
+    }
+  },
+  "print": {
+    "title": "Tlačiť",
+    "nextButton": "Hotovo",
+    "printButton": "Tlačiť",
+    "newWalletButton": "Nová peňaženka",
+    "strengthSelect": {
+      "title": "Odolnosť penaženky",
+      "words": "slov"
+    },
+    "publicKey": {
+      "title": "Verejný kľúč",
+      "tip": "Použite tento verejný kľúč na bezpečnú kontrolu Vášho zostatku alebo získanie ďalších adries v peňaženke, ktorá slúži iba na čítanie."
+    },
+    "addresses": {
+      "title": "Adresy",
+      "tip": "Vaše prostriedky môžete poslať na ktorúkoľvek z vyššie uvedených adries.",
+      "address": "Adresa"
+    },
+    "mnemonic": {
+      "title": "Mnemonická fráza",
+      "tip": "<strong>TÚTO MNEMONICKÚ FRÁZU NIKOMU NEUKAZUJTE ani ju s NIKÝM NEZDIEĽAJTE</strong>. Tieto slová poskytujú úplný prístup k finančným prostriedkom uloženým v tejto peňaženke."
+    },
+    "instructions": {
+      "title": "Inštrukcie",
+      "obfuscatingMsg": "Prosím, toto ignorujte. Len nejaká zábrana, ktorá pomôže zatemniť mnemonickú frázu, pre prípad, že by sa niekto pokúsil vidieť cez peňaženku pomocou baterky.",
+      "bulletOne": "Zložte tento list na štyri časti pomocou prerušovanej čiary ako vodidlá tak, aby mnemonická fráza zostala vo vnútornej časti, a potom ju zalepte páskou alebo lepidlom.",
+      "bulleTwo": "Udržujte ju v bezpečí a mimo dosahu vlhkosti. Zaobchádzajte s papierovou peňaženkou ako s hotovosťou. Ak ju stratíte alebo sa stane nečitateľnou, Vaše prostriedky budú navždy preč."
+    }
+  }
+}
