@@ -24,6 +24,8 @@ const messages = {
   id: require("@/locales/id.json"),
   nl: require("@/locales/nl.json"),
   pt: require("@/locales/pt.json"),
+  sk: require("@/locales/sk.json"),
+  vn: require("@/locales/vn.json"),
   zh: require("@/locales/zh.json"),
 };
 

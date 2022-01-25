@@ -1,0 +1,59 @@
+{
+  "global": {
+    "clickToCopy": "Nhấn để copy"
+  },
+  "header": {
+    "ergoPlatform": "Ergo Platform",
+    "github": "GitHub"
+  },
+  "start": {
+    "title": "Bắt đầu",
+    "nextButton": "Bắt đầu thôi!",
+    "keys": {
+      "title": "Chìa khóa của bạn, Ergo của bạn.",
+      "content": "Bằng cách tạo và in ví giấy offline, bạn giảm thiểu đáng kể khả năng tiếp xúc với tin tặc hoặc vi rút máy tính. Vì vậy, chỉ cần chuyển tiền của bạn vào ví mới này, giữ nó ở nơi an toàn, tránh ẩm ướt và tận hưởng cảm giác yên tâm khi biết tiền của bạn được an toàn."
+    },
+    "offline": {
+      "title": "Tới offline.",
+      "content": " Để cải thiện bảo mật, toàn bộ quá trình có thể được thực hiện offline. Chỉ cần tải xuống tệp {downloadUrl} trên GitHub, chuyển sang chế độ offline và mở nó bằng trình duyệt của bạn dưới dạng tệp .html thông thường!"
+    },
+    "verify": {
+      "title": "Đừng tin. Hãy kiểm chứng.",
+      "content": "Công cụ này được xây dựng bằng cách sử dụng các thư viện đáng tin và đã được kiểm tra, không có dữ liệu nào được truyền theo bất kỳ hướng nào và tất cả quá trình được thực thi cục bộ trên trình duyệt của bạn. Nhưng đừng tin tưởng, hãy truy cập <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'> repo GitHub </a> của chúng tôi và xác minh."
+    },
+    "donate": {
+      "title": "Quyên góp.",
+      "content": " Nếu bạn thích công cụ này và muốn khuyến khích nó phát triển, các khoản đóng góp rất được hoan nghênh! Vui lòng gửi đến địa chỉ này:",
+      "tooltip": "Quét mã QR hoặc <br />nhấn để copy"
+    }
+  },
+  "print": {
+    "title": "In",
+    "nextButton": "Xong",
+    "printButton": "In",
+    "newWalletButton": "Ví mới",
+    "strengthSelect": {
+      "title": "Sức mạnh của ví",
+      "words": "các từ"
+    },
+    "publicKey": {
+      "title": "Khóa công khai",
+      "tip": " Sử dụng khóa công khai này để kiểm tra số dư của bạn hoặc nhận thêm địa chỉ trên ví xem."
+    },
+    "addresses": {
+      "title": "Địa chỉ",
+      "tip": " Bạn có thể gửi tiền của mình đến bất kỳ địa chỉ nào ở trên.",
+      "address": "Địa chỉ"
+    },
+    "mnemonic": {
+      "title": "Mnemonic",
+      "tip": "<strong>KHÔNG TIẾT LỘ hoặc CHIA SẺ CỤM TỪ MNEMONIC NÀY</strong> với bất kì ai. Những từ này cung cấp quyền truy cập đầy đủ vào các khoản tiền được lưu trên ví này."
+    },
+    "instructions": {
+      "title": "Hướng dẫn",
+      "obfuscatingMsg": "Xin vui lòng bỏ qua điều này. Chỉ là một số thứ giúp làm mờ mnemonic, phòng trường hợp ai đó cố gắng xem qua ví bằng cách sử dụng đèn pin.",
+      "bulletOne": "Gấp tờ giấy làm bốn phần bằng cách sử dụng nét đứt làm hướng dẫn, sao cho cụm mnemonic nằm ở bên trong và dán nó bằng băng dính hoặc keo; và ",
+      "bulleTwo": "Giữ nó an toàn và tránh xa ẩm mốc. Hãy coi ví giấy như tiền mặt. Nếu bạn làm mất hoặc không đọc được, tiền của bạn sẽ biến mất vĩnh viễn."
+    }
+  }
+}
