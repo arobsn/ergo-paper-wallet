@@ -1,0 +1,59 @@
+{
+  "global": {
+    "clickToCopy": "Click to copy"
+  },
+  "header": {
+    "ergoPlatform": "Ergo Platform",
+    "github": "GitHub"
+  },
+  "start": {
+    "title": "Start",
+    "nextButton": "Andiamo!",
+    "keys": {
+      "title": "Le tue chiavi, i tuoi Ergo.",
+      "content": "Generando e stampando offline il tuo portafoglio di carta, riduci drasticamente la tua esposizione ad hacker o virus informatici. Quindi trasferisci i tuoi fondi nel tuo nuovo portafoglio, tienilo in un luogo sicuro e lontano dall'umidità e goditi la tranquillità di sapere che i tuoi fondi sono al sicuro."
+    },
+    "offline": {
+      "title": "Vai offline.",
+      "content": "Per una maggiore sicurezza, l'intero processo può essere eseguito offline. Scarica il file {downloadUrl} su GitHub, vai offline e aprilo usando il tuo browser come un normale file .html!"
+    },
+    "verify": {
+      "title": "Non fidarti, verifica.",
+      "content": "Questo strumento è stato creato utilizzando librerie affidabili e ben testate dalla comunità, nessun dato viene trasmesso in nessuna direzione e tutto il processo viene eseguito localmente sul tuo browser. Ma non fidarti, vai al nostro <a href='https://github.com/anon-br/ergo-paper-wallet' target='_blank' rel='noopener noreferrer'>repo GitHub</a> e verificare."
+    },
+    "donate": {
+      "title": "Donazioni.",
+      "content": "Se ti piace questo strumento e vuoi incoraggiarne lo sviluppo, le donazioni sono ben accette! Si prega di inviare qualsiasi importo a questo indirizzo:",
+      "tooltip": "Scansiona questo codice QR o <br />fai clic per copiare"
+    }
+  },
+  "print": {
+    "title": "Stampa",
+    "nextButton": "Fatto",
+    "printButton": "Stampa",
+    "newWalletButton": "Nuovo wallet",
+    "strengthSelect": {
+      "title": "Sicurezza Wallet",
+      "words": "Parole"
+    },
+    "publicKey": {
+      "title": "Chiave pubblica",
+      "tip": "Usa questa chiave pubblica per controllare in modo sicuro il tuo saldo o ottenere più indirizzi su un portafoglio di sola lettura."
+    },
+    "addresses": {
+      "title": "Indirizzi",
+      "tip": "Puoi inviare i tuoi fondi a uno qualsiasi degli indirizzi sopra indicati.",
+      "address": "Address"
+    },
+    "mnemonic": {
+      "title": "Mnemonic",
+      "tip": "<strong>NON RIVELARE o CONDIVIDERE QUESTA FRASE MEMONICA</strong> con nessuno. Queste parole forniscono l'accesso completo ai fondi archiviati su questo portafoglio."
+    },
+    "instructions": {
+      "title": "Istruzioni",
+      "obfuscatingMsg": "Per favore, ignoralo. Solo un po' di rumore per aiutare a offuscare il mnemonico, nel caso qualcuno tenti di vedere attraverso il portafoglio usando una torcia.",
+      "bulletOne": "Piega questo foglio in quattro parti usando la linea tratteggiata come guida, in modo che la frase mnemonica rimanga nella parte interna e, quindi, sigillalo con del nastro adesivo o della colla; e",
+      "bulleTwo": "Tienilo al sicuro e lontano dall'umidità. Tratta un portafoglio di carta come denaro contante. Se lo perdi o diventa illeggibile, i tuoi fondi sono persi per sempre."
+    }
+  }
+}
